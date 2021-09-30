@@ -1,0 +1,12 @@
+[programs.devnet]
+crunchy_vs_smooth = "CYcPa9NH4Q7zAWy1KKDQAsFrajS78gCzU3A9NwGbvVbo"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "devnet"
+wallet = "/home/wallywilliams/.config/solana/id.json"
+
+[scripts]
+test = "mocha -t 1000000 tests/"
